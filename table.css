@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-main {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(218, 218, 218);
+}
+
+
+/* banner-main */
+
+.banner-main {
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+/* Box design */
+
+.box {
+    margin-top: 60px;
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    box-shadow: 0 0 10px 0px rgb(151, 151, 151);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* hover effect to the box and its content */
+
+.box:hover {
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+.box:hover .top {
+    background-color: rgb(26, 177, 177);
+}
+
+.box:hover h1 {
+    color: rgb(32, 204, 204);
+    transition: 0.25s;
+}
+
+.box:hover .aa {
+    color: rgb(32, 204, 204);
+    transition: 0.25s;
+}
+
+.box .top {
+    height: 60px;
+    width: 300px;
+    background-color: rgb(32, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+/* Hover effects to the below lines */
+
+
+/* for hovering on the 1st box */
+
+.z1:hover~#haha1 {
+    width: 50px;
+}
+
+.z1:hover~#haha2 {
+    width: 50px;
+}
+
+.z1:hover~#haha3 {
+    width: 50px;
+}
+
+
+/* For hovering on the 2nd box */
+
+.z2:hover~#haha1 {
+    width: 70px;
+}
+
+.z2:hover~#haha2 {
+    width: 250px;
+}
+
+.z2:hover~#haha3 {
+    width: 120px;
+}
+
+
+/* For hovering on the 3rd box */
+
+.z3:hover~#haha1 {
+    width: 67.5vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.z3:hover~#haha2 {
+    width: 67.5vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.z3:hover~#haha3 {
+    width: 67.5vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/*  header */
+
+h1 {
+    margin-top: 25px;
+    font-size: 46px;
+    font-weight: bolder;
+    color: rgb(63, 63, 63);
+}
+
+.aa {
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+}
+
+.ab {
+    margin-top: 25px;
+    font-weight: normal;
+    font-size: 18px;
+    color: gray;
+}
+
+
+/* FOOTER MAIN  */
+
+.footer-main {
+    /* background-color: green; */
+    width: 100vw;
+    height: 261px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    height: 240px;
+    width: 80vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0px rgb(151, 151, 151);
+}
+
+
+/* 1st */
+
+.line {
+    height: 10px;
+    width: 67.5vw;
+    margin: 10px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 20px;
+}
+
+.yoyo {
+    color: rgb(63, 63, 63);
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.y1,
+.y3,
+.y5 {
+    margin-left: 10px;
+}
+
+.y2,
+.y4,
+.y6 {
+    margin-right: 10px;
+}
+
+
+/* Lines under the lines blue lines hahhaahahahaahhaa */
+
+#haha1 {
+    height: 10px;
+    width: 0px;
+    background-color: rgb(26, 177, 177);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#haha2 {
+    height: 10px;
+    width: 0px;
+    background-color: rgb(26, 177, 177);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#haha3 {
+    height: 10px;
+    width: 0px;
+    background-color: rgb(26, 177, 177);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
